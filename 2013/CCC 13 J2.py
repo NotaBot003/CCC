@@ -1,0 +1,12 @@
+n = input()
+length = len(n)
+flips = n.count("I")
+flips += n.count("O")
+flips += n.count("S")
+flips += n.count("H")
+flips += n.count("Z")
+flips += n.count("X")
+flips += n.count("N")
+if flips == length:
+    print("YES")
+else: print("NO")

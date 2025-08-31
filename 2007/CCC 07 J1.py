@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a < b < c: print (b)
+if b < c < a: print (c)
+if c < a < b: print (a)
+if a > b > c: print (b)
+if b > c > a: print (c)
+if c > a > b: print (a)
